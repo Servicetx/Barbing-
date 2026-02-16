@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>West Texas Barbershop | Midland's Premier Grooming</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root { --gold:#D4AF37; --dark-bg:#0A0A0A; }
+body{font-family:'Inter',sans-serif;background:var(--dark-bg);color:#fff;scroll-behavior:smooth;}
+h1,h2,h3,.nav-link{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.05em;}
+.text-gold{color:var(--gold);} .bg-gold{background:var(--gold);}
+
+.hero-gradient{
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)),
+url('pic1.png');
+background-size:cover;
+background-position:center;
+}
+
+.service-card{border-bottom:1px solid rgba(212,175,55,.2);transition:.3s;}
+.service-card:hover{border-bottom:1px solid var(--gold);}
+.gallery-img{transition:.5s;aspect-ratio:1/1;object-fit:cover;}
+.gallery-img:hover{transform:scale(1.03);}
+</style>
+</head>
+
+<body class="antialiased">
+
+<nav class="fixed w-full z-50 bg-black/95 border-b border-white/10 backdrop-blur-sm">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-20">
+<div class="flex flex-col">
+<span class="text-2xl font-bold text-gold leading-none">WEST TEXAS</span>
+<span class="text-xs tracking-[0.3em] text-white/70">BARBERSHOP</span>
+</div>
+
+<div class="hidden md:flex space-x-8">
+<a href="#about" class="nav-link hover:text-gold">About</a>
+<a href="#gallery" class="nav-link hover:text-gold">Gallery</a>
+<a href="#services" class="nav-link hover:text-gold">Services</a>
+<a href="#contact" class="nav-link hover:text-gold">Contact</a>
+</div>
+
+<a href="tel:+14329998944" class="bg-gold text-black px-5 py-2 font-bold rounded-sm hover:bg-white">CALL NOW</a>
+</div>
+</nav>
+
+<section class="hero-gradient min-h-screen flex items-center justify-center text-center px-4">
+<div class="max-w-4xl">
+<div class="inline-block border border-gold px-4 py-1 mb-6 text-gold tracking-widest text-sm font-bold">
+SERVING MIDLAND, TX
+</div>
+
+<h1 class="text-5xl md:text-8xl font-bold mb-6 leading-none">
+CRAFTING <br><span class="text-gold italic font-serif lowercase">Confidence.</span>
+</h1>
+
+<p class="text-lg text-gray-300 mb-4">
+⭐⭐⭐⭐☆ Rated 3.9 on Google with 39+ reviews
+</p>
+
+<p class="text-lg md:text-xl text-gray-300 mb-10 max-w-xl mx-auto">
+Precision fades, sharp lineups, and the best grooming experience in West Texas.
+</p>
+
+<a href="tel:+14329998944" class="bg-gold text-black text-lg px-10 py-4 font-bold rounded-sm hover:bg-white">
+BOOK APPOINTMENT
+</a>
+</div>
+</section>
+
+<section id="gallery" class="py-24 bg-black">
+<div class="max-w-7xl mx-auto px-4">
+<h3 class="text-4xl font-bold mb-10">Recent Cuts & Styles</h3>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<img src="pic2.png" class="gallery-img w-full rounded-lg">
+<img src="pic3.png" class="gallery-img w-full rounded-lg">
+<img src="pic4.png" class="gallery-img w-full rounded-lg">
+<img src="pic5.png" class="gallery-img w-full rounded-lg">
+<img src="pic6.png" class="gallery-img w-full rounded-lg">
+<img src="pic7.png" class="gallery-img w-full rounded-lg">
+<img src="pic8.png" class="gallery-img w-full rounded-lg">
+<img src="pic9.png" class="gallery-img w-full rounded-lg">
+</div>
+</div>
+</section>
+
+<section id="about" class="py-24 bg-zinc-900">
+<div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
+
+<img src="pic5.png" class="rounded-lg shadow-2xl">
+
+<div class="space-y-6">
+<h3 class="text-5xl font-bold">Premium Environment</h3>
+<p class="text-gray-400 text-lg italic">
+Where traditional barbering meets modern comfort. Built for men who value precision, atmosphere, and confidence.
+</p>
+
+<div class="grid grid-cols-2 gap-8 pt-6">
+<div>
+<h4 class="font-bold text-xl">Clean & Modern</h4>
+<p class="text-gray-500 text-sm">Professional tools and relaxing atmosphere.</p>
+</div>
+<div>
+<h4 class="font-bold text-xl">Top Rated</h4>
+<p class="text-gray-500 text-sm">Trusted by customers across Midland.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="services" class="py-24 bg-black">
+<div class="max-w-3xl mx-auto px-4 text-center mb-16">
+<h3 class="text-4xl font-bold">Service Menu</h3>
+</div>
+
+<div class="max-w-3xl mx-auto px-4 space-y-2">
+<div class="service-card py-6 flex justify-between"><span class="text-2xl font-bold">Classic Haircut</span><span class="text-2xl font-bold text-gold">$30</span></div>
+<div class="service-card py-6 flex justify-between"><span class="text-2xl font-bold">Haircut & Beard</span><span class="text-2xl font-bold text-gold">$45</span></div>
+<div class="service-card py-6 flex justify-between"><span class="text-2xl font-bold">Hot Towel Shave</span><span class="text-2xl font-bold text-gold">$35</span></div>
+<div class="service-card py-6 flex justify-between"><span class="text-2xl font-bold">Kids Cut</span><span class="text-2xl font-bold text-gold">$25</span></div>
+</div>
+</section>
+
+<section id="contact" class="py-24 bg-zinc-900">
+<div class="max-w-7xl mx-auto px-4">
+<div class="bg-black rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+
+<div class="p-12 md:w-1/2 space-y-6">
+<h3 class="text-4xl font-bold">Visit The Shop</h3>
+<p class="text-gray-400">Walk-ins welcome. Call ahead for faster service.</p>
+
+<p><b>Address:</b> 6900 TX-349, Midland, TX</p>
+<p><b>Phone:</b> <a href="tel:+14329998944" class="text-gold">+1 432-999-8944</a></p>
+<p><b>Hours:</b> Mon-Sun 9am-9pm</p>
+</div>
+
+<div class="md:w-1/2 min-h-[400px]">
+<iframe 
+src="https://www.google.com/maps?q=6900%20TX-349%20Midland%20TX&output=embed"
+class="w-full h-full border-0">
+</iframe>
+</div>
+
+</div>
+</div>
+</section>
+
+<footer class="py-12 text-center border-t border-white/5">
+<p class="text-gold font-bold tracking-widest mb-2">WEST TEXAS BARBERSHOP</p>
+<p class="text-gray-600 text-xs uppercase tracking-[0.2em]">© 2026 • Midland, Texas • Premium Grooming</p>
+</footer>
+
+</body>
+</html>
